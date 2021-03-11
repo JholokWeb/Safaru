@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Pacifico&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+h1,h2, h3, h4 {
+	font-family: 'Pacifico', cursive;
+}
+p{
+	font-family: 'Caveat', cursive;
+}
+
+
+
+/* nabvar area css here  */
+.navbar-expand-lg {
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	position: absolute;
+	z-index: 99;
+	width: 100%;
+}
+.navbar-brand {
+	font-size: 40px;
+	font-family: 'Pacifico', cursive;
+	color: #fff;
+}
+.navbar{
+	transition:all 1s linear;
+	-webkit-transition:all 1s linear;
+	-moz-transition:all 1s linear;
+	-ms-transition:all 1s linear;
+	-o-transition:all 1s linear;
+}
+
+.navbar-nav {
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: .5rem;
+	padding-left: .5rem;
+	color: #fff;
+	transition: all linear 0.3s ;
+	margin-left: 10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+	padding-right: .5rem;
+	padding-left: .5rem;
+	color: rgb(250, 115, 115);
+	border-bottom: 2px solid rgb(250, 115, 115);
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	/* color: rgba(255,255,255,.55); */
+	color: rgb(250, 115, 115);
+	border-bottom: 2px solid rgb(250, 115, 115);
+}
+
+
+/* banner area css here  */
+
+
+.slider-items img{
+	width: 100%;
+	height: 100vh;
+	clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+}
+#banner{
+	position: relative;
+}
+.banner-ovarlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.664);
+	clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+}
+.banner-content{
+	
+}
+.banner-content h1 {
+	padding-top: 200px;
+	font-size: 71px;
+	/* text-transform: uppercase; */
+	color: rgb(240, 78, 78);
+	font-family: 'Pacifico', cursive;
+}
+.banner-content p {
+	max-width: 611px;
+	color: #ddd;
+	font-size: 23px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	font-family: 'Caveat', cursive;
+}
+.banner-content a {
+	text-decoration: none;
+	padding: 10px 20px;
+	background: rgb(250, 159, 159);
+	color: #000;
+	border: 2px solid #fff;
+	font-size: 20px;
+	border-radius: 35px;
+	font-family: 'Caveat', cursive;
+	transition: all linear.3s;
+	-webkit-transition: all linear.3s;
+	-moz-transition: all linear.3s;
+	-ms-transition: all linear.3s;
+	-o-transition: all linear.3s;
+}
+.banner-content a:hover{
+	background: #000;
+	color: #fff;
+}
+
+.fixed{
+	position: fixed;
+	background-color: rgb(22, 21, 21);
+	top: 0;
+	width: 100%;
+	animation: jholok 1s;
+	-webkit-animation: jholok 1s;
+}
+@keyframes jholok{
+	from{
+		top: -100px;
+	}
+	to{
+		top: 0px;
+	}
+}
+/* about area css here  */
+
+
+.about-content{
+	text-align: center;
+}
+.about-content h2 {
+	font-size: 50px;
+	/* color: red; */
+}
+.about-content p {
+	font-size: 20px;
+	padding-bottom: 50px;
+}
+.tab-pane h2{
+	color: rgb(240, 78, 78);
+	padding-top: 15px;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	color: #fff;
+	background-color: rgb(240, 78, 78);
+}
+.tab-content > .active {
+	display: block;
+	background: bisque;
+}
+/* nabvar area css here  */
+/* nabvar area css here  */
+/* nabvar area css here  */
+/* nabvar area css here  */
+/* nabvar area css here  */
+/* nabvar area css here  */
+/* nabvar area css here  */
+/* nabvar area css here  */
+/* nabvar area css here  */
+/* nabvar area css here  */
+/* nabvar area css here  */
+/* nabvar area css here  */

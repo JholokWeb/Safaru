@@ -1,0 +1,87 @@
+
+@media (max-width:575.98px) { 
+    .fa {
+        color: #fff;
+        font-size: 25px;
+    }
+    .navbar-collapse {
+        align-items: center;
+        width: 40%;
+        position: absolute;
+        text-align: end;
+        right: 22px;
+        top: 57px;
+        background: black;
+        padding-right: 10px;
+    }
+    .navbar-brand {
+        font-size: 25px;
+        
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        
+        font-size: 22px;
+    }
+    .banner-content h1 {
+        padding-top: 130px;
+        font-size: 30px;
+        
+    }
+    .banner-content p {
+        max-width: 480px;
+        color: #ddd;
+        font-size: 19px;
+        padding-top: 16px;
+        padding-bottom: 28px;
+       
+    }
+    .banner-content a {
+       
+        padding: 5px 14px;
+        
+        font-size: 18px;
+       
+    }
+    .about-content h2 {
+        font-size: 35px;
+        /* color: red; */
+    }
+    .about-content p {
+        
+        padding-bottom: 10px;
+    }
+    .tab-pane h2 {
+       
+        padding-top: 10px;
+        font-size: 19px !important;
+    }
+    .about-content p {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+    .nav-pills .nav-link {
+       
+        width: 90px;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .tab-content > .active {
+        
+        height: 224px;
+    }
+}
+
+
+@media (max-width: 767.98px) { 
+
+}
+
+
+@media (max-width: 991.98px) {
+
+ }
+
+
+@media (max-width: 1199.98px) {
+
+}
